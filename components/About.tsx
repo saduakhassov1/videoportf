@@ -28,7 +28,7 @@ export default function About() {
               эмоции, атмосферу и уникальность каждого момента.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              Работаю с профессиональным оборудованием (Sony FX3, DJI RS3 Pro, дроны), 
+              Работаю с профессиональным оборудованием (Sony FX30/Sony ZV-E10 II, DJI RS3 Pro, дрон Dji mini 4 Pro), 
               использую цветокоррекцию DaVinci Resolve и всегда стремлюсь к кинематографичности.
             </p>
 
