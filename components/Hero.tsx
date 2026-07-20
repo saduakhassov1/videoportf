@@ -38,7 +38,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-gray-400 text-lg md:text-xl mb-10 max-w-2xl mx-auto"
         >
-          Свадебные фильмы, рекламные ролики, музыкальные клипы и корпоративное видео. 
+          Свадебные фильмы, рекламные ролики, Reels и корпоративное видео. 
           Каждый кадр — история.
         </motion.p>
 
