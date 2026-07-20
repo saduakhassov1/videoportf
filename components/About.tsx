@@ -43,15 +43,18 @@ export default function About() {
             </div>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="relative"
-          >
-            <div className="aspect-[3/4] rounded-2xl bg-gradient-to-br from-gray-800 to-gray-900" />
-            <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-accent/20 rounded-full blur-3xl" />
-          </motion.div>
+         <motion.div
+  initial={{ opacity: 0, x: 30 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  viewport={{ once: true }}
+  className="relative"
+>
+  <div 
+    className="aspect-[3/4] rounded-2xl bg-cover bg-center"
+    style={{ backgroundImage: 'url(/images/about-photo.jpg)' }}
+  />
+  <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-accent/20 rounded-full blur-3xl" />
+</motion.div>
         </div>
       </div>
     </section>
