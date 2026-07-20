@@ -64,7 +64,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Instagram</p>
-                  <p className="font-medium">@_saduakhassove</p>
+                  <p className="font-medium">@_saduakhassov</p>
                 </div>
               </a>
             </div>
@@ -111,7 +111,7 @@ export default function Contact() {
                 <option>Реклама</option>
                 <option>Клип</option>
                 <option>Корпоратив</option>
-                <option>Love Story</option>
+                <option>Reels</option>
                 <option>Другое</option>
               </select>
             </div>
